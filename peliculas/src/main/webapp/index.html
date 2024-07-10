@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-MOVIES</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <a class="anclaLogo" href="#">
+                <i class="fas fa-film" aria-hidden="true"></i>
+                <span>CAC-Movies</span>
+            </a>
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="./pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="main">
+        <section class="sectionPrincipal">
+            <h1 class="tituloPrincipal">Películas y series ilimitadas <br> en un solo lugar</h1>
+            <h2 class="subtituloPrincipal">Disfruta donde quieras. Cancela cuando quieras.</h2>
+            <a class="botonRegistrarse" href="./pages/registrarse.html">Registrate</a>
+        </section>
+        <section class="buscadorPrincipal">
+            <h2 class="tituloSection">¿Qué estas buscando para ver?</h2>
+            <form class="buscadorPeliculas">
+                <input class="inputBuscador" type="text" placeholder="Buscar..." />
+                <input class="botonBuscador" type="submit" value="Buscar">
+            </form>
+        </section>
+
+
+        <hr>
+        <section class="peliculasTendencia">
+            <h3 class="tituloSection">Las tendencias de hoy</h3>
+            <div class="peliculas">
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_1.jpg" alt="The Beekeeper">
+                    </a>
+                    <h4>The Beekeeper</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_2.jpg" alt="Badland Hunters">
+                    </a>
+                    <h4>Badland Hunters</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_3.jpg" alt="The Marvels">
+                    </a>
+                    <h4>The Marvels</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_4.jpg" alt="Wonka">
+                    </a>
+
+                    <h4>Wonka</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_5.jpg" alt="Aquaman and the Lost Kingdom">
+                    </a>
+                    <h4>Aquaman and the Lost Kingdom</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_6.jpg" alt="Migration">
+                    </a>
+                    <h4>Migration</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/ems.jpg" alt="Sixty Minutes">
+                    </a>
+
+                    <h4>Avatar: Temporada 1</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_8.jpg" alt="avatar">
+                    </a>
+
+                    <h4>Wish</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_9.jpg" alt="The Masked Saint">
+                    </a>
+
+                    <h4>The Masked Saint</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_10.jpg" alt="Due Justice">
+                    </a>
+
+                    <h4>Due Justice</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_11.jpg" alt="Orion and the Darke">
+                    </a>
+
+                    <h4>Orion and the Dark</h4>
+                </div>
+                <div class="pelicula">
+                    <a href="./pages/detalle.html">
+                        <img class="imgTendencia" src="./assets/img/peli_12.jpg" alt="Genghis Khan">
+                    </a>
+
+                    <h4>Genghis Khan</h4>
+                </div>
+            </div>
+            <button class="boton anterior">Anterior</button>
+            <button class="boton siguiente">Siguiente</button>
+        </section>
+        <hr>
+        <section class="peliculasAclamadas">
+            <h3 class="tituloSection">Las más aclamadas</h3>
+            <div class="aclamadas">
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/grav.jpg" alt="aclamada_1">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_2.jpg" alt="aclamada_2">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_3.jpg" alt="aclamada_3">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/mat.jpg" alt="aclamada_4">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/p9376_p_v10_ae.jpg" alt="aclamada_5">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_6.jpg" alt="aclamada_6">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_7.jpg" alt="aclamada_7">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/sch.jpg" alt="aclamada_8">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_9.jpg" alt="aclamada_9">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_10.jpg" alt="aclamada_10">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_11.jpg" alt="aclamada_11">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/aclamada_12.jpg" alt="aclamada_12">
+                </div>
+            </div>
+        </section>
+
+        <section class="peliculasAclamadas">
+            <h3 class="tituloSection">Peliculas y Series recomendadas</h3>
+            <div class="aclamadas">
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/trackdown.jpg" alt="aclamada_1">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/take.jpg" alt="aclamada_2">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/mrrob.jpg" alt="aclamada_3">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/halt2.jpg" alt="aclamada_5">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/what.jpg" alt="aclamada_6">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/rabbit.jpg" alt="aclamada_7">
+                </div>
+                <div class="peliculaItem">
+                    <img class="imgAclamada" src="./assets/img/sch.jpg" alt="aclamada_8">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+                <li class="listaItem"><a class="linkNav administradorPeliculas" href="./pages/administradorPelis.html">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
+        <a href="#main" class="flechaArriba">
+            <img src="./assets/img/flecha-hacia-arriba.png" alt="ir arriba flecha">
+        </a>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
